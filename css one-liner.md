@@ -97,7 +97,7 @@ This code is a shorthand for the four inset properties, top, right, bottom and l
 
 ```
 .card{
-    position: absolute;
+    position: fixed;
     inset: 0;
 }
 ```
