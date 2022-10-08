@@ -162,3 +162,76 @@ h2,
 ```
 
 ---
+
+7.
+
+This code is shorthand for applying flex-box properties in one line.
+
+### Long line of code
+
+```
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+```
+
+### One-liner
+
+```
+flex:1 1 160px;
+
+```
+
+---
+
+8.
+
+This code is shorthand for applying grid property in one line.
+
+### Long line of code
+
+```
+.grid-1 {
+  display: grid;
+  grid-template-rows: 100px 300px;
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+}
+```
+
+### One-liner
+
+```
+.grid-1 {
+  display: grid;
+  grid: 100px 300px / auto-flow column 100px;
+}
+```
+
+---
+
+9.
+This code is shorthand for applying background property in one line.
+
+### Long line of code
+
+```
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+```
+
+### One-liner Code
+
+```
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+```
