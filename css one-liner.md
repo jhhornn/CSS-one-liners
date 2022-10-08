@@ -103,3 +103,62 @@ This code is a shorthand for the four inset properties, top, right, bottom and l
 ```
 
 ---
+
+5.
+
+## Description
+
+This code is a shorthand for applying same styling to multiple tags in one declaration.
+
+### Long line of code
+
+```
+header p:hover{
+    color:red;
+    cursor:pointer;
+}
+
+main p:hover{
+    color:red;
+    cursor:pointer;
+}
+
+footer p:hover{
+    color:red;
+    cursor:pointer;
+}
+```
+
+### One-liner
+
+```
+:is(header, main, footer) p:hover {
+  color: red;
+  cursor: pointer;
+}
+```
+
+---
+
+6.
+
+The CSS :has selector helps you select elements that contain elements that match the selector you pass into the :has() function.
+
+### Long line of code
+
+```
+h2,
+.subtitle {
+  margin: 0 0 1.5rem 0;
+}
+```
+
+### One-liner
+
+```
+.header-group:has(h2):has(.subtitle) h2 {
+  margin: 0 0 0.2rem 0;
+}
+```
+
+---
