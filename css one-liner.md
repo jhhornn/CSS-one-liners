@@ -235,3 +235,30 @@ body {
 }
 
 ```
+
+10.
+This code is shorthand for applying animation property in one line.
+
+### Long line of code
+
+```
+.animation {
+  animation-name: animation_name;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-fill-mode: alternate;
+}
+
+```
+
+### One-liner Code
+
+```
+.animation {
+  animation: animation_name 4s ease-in-out 3s 1 reverse alternate;
+}
+
+```
