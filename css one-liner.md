@@ -262,3 +262,26 @@ This code is shorthand for applying animation property in one line.
 }
 
 ```
+
+11.
+This code is shorthand for applying border property in one line.
+
+### Long line of code
+
+```
+.border {
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+```
+
+### One-liner Code
+
+```
+.border {
+  border: 10px solid white;
+}
+
+```
