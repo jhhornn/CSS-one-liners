@@ -285,3 +285,51 @@ This code is shorthand for applying border property in one line.
 }
 
 ```
+
+12.
+This code is shorthand for applying margin property in one line.
+
+### Long line of code
+
+```
+.margin {
+  margin-top: 10px;
+  margin-right: 11px;
+  margin-bottom: 12px;
+  margin-left: 13px;
+}
+
+```
+
+### One-liner Code
+
+```
+.margin {
+  margin: 10px 11px 12px 13px;
+}
+
+```
+
+13.
+This code is shorthand for applying padding property in one line.
+
+### Long line of code
+
+```
+.padding {
+  padding-top: 10px;
+  padding-right: 11px;
+  padding-bottom: 12px;
+  padding-left: 13px;
+}
+
+```
+
+### One-liner Code
+
+```
+.padding {
+  padding: 10px 11px 12px 13px;
+}
+
+```
